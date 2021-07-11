@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es5", "es6", "dom"],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": false,
+    "listEmittedFiles": true,
+    "noUnusedLocals": false,
+    "target": "es6",
+    "watch": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "rootDirs": [
+      "src"
+    ],
+    "paths": {
+      "js/*": ["src/js/*"],
+      "libs/*": ["src/libs/*"],
+      "style/*": ["src/style/*"],
+      "shaders/*": ["src/shaders/*"],
+      "data/*": ["src/data/*"],
+      "img/*": ["src/img/*"],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  // "include": [
+  //   "./typings/images.d.ts"
+  // ]
+}
