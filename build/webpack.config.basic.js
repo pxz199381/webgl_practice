@@ -10,8 +10,6 @@ module.exports = {
   context: Path.join(__dirname, '../src'),
   entry: {
     'index': Path.resolve(__dirname, '../src/js/index.js'),
-    'webgl-utils': Path.resolve(__dirname, '../src/js/webgl-utils.js'),
-    'webgl-lessons-ui': Path.resolve(__dirname, '../src/js/webgl-lessons-ui.js'),
   },
   output: {
     path: Path.join(__dirname, '../dist'),
