@@ -5,14 +5,6 @@ import ImgSrc from 'img/leaves.jpg';
 
 import GL from './_gl';
 
-// type ViewportObject = {
-//   zoom:number;
-//   center:number[];
-// };
-const CnavasSize = {
-  width: 800,
-  height: 600
-};
 
 const Canvas = document.getElementById('canvas');
 
@@ -27,7 +19,6 @@ if(!Ctx_GL){
 
 const image = new Image()
 image.src = ImgSrc
-// image.src = 'https://webglfundamentals.org/webgl/resources/leaves.jpg'
 image.onload = function() {
   GL(Ctx_GL, image);
 }
